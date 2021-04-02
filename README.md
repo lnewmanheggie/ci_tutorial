@@ -16,7 +16,7 @@ All other variables should be stay the same for the mysqli db driver
 Make sure you stop all other docker containers before starting this one up. 
 To stop docker containers
 Open your terminal and `cd` to the directory where an active container is running and enter 
-<code>docker-compose down</code>
+<code>docker-compose stop</code>
 
 Then `cd` to the root folder of this project and type
 <code>docker-compose up -d</code>
