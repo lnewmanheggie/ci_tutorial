@@ -3,6 +3,7 @@
 <head>
     <title>citutorial</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+    <link rel="stylesheet" type = "text/css" href="<?php print base_url(); ?>css/style.css">
 </head>
 
 <body>
@@ -15,6 +16,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php/posts">Blog</a>
                 </li>
             </ul>
         </div>
