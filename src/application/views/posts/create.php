@@ -9,7 +9,7 @@
     </div>
     <div class="form-group">
         <label>Add Body</label>
-        <textarea class="form-control" rows="3" name="body"></textarea>
+        <textarea id="editor" class="form-control" rows="7" name="body"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
