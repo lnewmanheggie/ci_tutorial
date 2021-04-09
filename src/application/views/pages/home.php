@@ -1,1 +1,2 @@
-this is home
+<h2><?= $title ?></h2>
+<p>Welcome to the Blog</p>
