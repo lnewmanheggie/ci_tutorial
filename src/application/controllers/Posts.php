@@ -47,12 +47,12 @@
                 $config['upload_path'] = './images/posts';
                 $config['allowed_types'] = 'gif|jpeg|png';
                 $config['max_size'] = '2048';
-                $config['max_width'] = '200';
-                $config['max_height'] = '200';
+                $config['max_width'] = '5000';
+                $config['max_height'] = '5000';
 
                 $this->load->library('upload', $config);
 
-                if (!$this->upload->do_upload()) {
+                if (!$this->upload->do_upload('userfile')) {
                     $errors = ['error' => $this->upload->display_errors()];
                     $post_image = 'noimage.png';
                 } else {
