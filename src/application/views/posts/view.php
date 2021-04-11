@@ -1,5 +1,6 @@
 <h2><?php print $post['title']; ?></h2>
 <small class="post-date">Posted on: <?php print $post['created_at']; ?></small><br>
+<img src="../../../images/posts/<?php print $post['post_image']; ?>" width="250">
 <div class="post-body">
     <?php print $post['body']; ?>
 </div>

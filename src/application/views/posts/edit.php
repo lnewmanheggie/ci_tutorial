@@ -12,5 +12,14 @@
         <label>Add Body</label>
         <textarea class="form-control" rows="3" name="body"><?php print $post['body']; ?></textarea>
     </div>
+    <div class="form-group">
+        <label>Category</label>
+        <select name="category_id" class="form-control">
+            <?php foreach($categories as $category): ?>
+                <option value="<?php print $category['id']; ?>"><?php print $category['name']; ?></option>
+            <?php endforeach; ?>
+
+        </select>
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
