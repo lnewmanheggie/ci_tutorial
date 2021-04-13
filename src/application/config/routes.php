@@ -11,6 +11,8 @@ $route['posts/(:any)'] = 'posts/view/$1';
 $route['posts'] = 'posts/index';
 $route['default_controller'] = 'pages/view';
 
+// $route['users/register'] = 'users/register';
+
 $route['categories/create'] = 'categories/create';
 $route['categories'] = 'categories/index';
 $route['categories/posts/(:any)'] = 'categories/posts/$1';
