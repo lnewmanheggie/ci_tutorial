@@ -13,3 +13,6 @@
         </div>
     </div>
 <?php endforeach; ?>
+<div class="pagination-links">
+    <?php print $this->pagination->create_links(); ?>
+</div>
